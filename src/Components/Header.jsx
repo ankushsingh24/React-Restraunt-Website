@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="header-heading">
+    <div className="header-heading" id="header">
       <h3>It's Great Time For A Good Taste Of Burger.</h3>
       <h1>
         <span>BURGER</span> FOR WEEK

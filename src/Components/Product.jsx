@@ -5,15 +5,17 @@ import image2 from "../images/s2.png";
 
 function Product() {
   return (
-    <div id="products">
+    <div id="product">
       <h1>CHOOSE & ENJOY</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Necessitatibus, ea.
       </p>
+
       <div className="a-container">
         <Productbox image={image1} title="Luger Burger" />
         <Productbox image={image2} title="Lu Pigeon Burger" />
+        <Productbox image={image1} title="Luger Burger" />
       </div>
     </div>
   );
